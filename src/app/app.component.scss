@@ -149,9 +149,10 @@
 }
 
 .table-view {
-  table, tr,th, td{
+  table, tr, th, td {
     border: 1px solid #ddd;
   }
+
   .update-quantity {
     text-align: center;
 
@@ -206,4 +207,8 @@
     width: 768px;
     margin: 0 auto;
   }
+}
+
+mat-icon {
+  cursor: pointer;
 }
